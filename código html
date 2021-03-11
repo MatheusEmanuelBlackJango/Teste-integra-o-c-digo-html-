@@ -9,3 +9,17 @@
     Hello World
 </body>
 </html>
+
+version: 1
+frontend:
+  phases:
+    # IMPORTANT - Please verify your build commands
+    build:
+      commands: [enter comand]
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: /
+    files:
+      - '**/*'
+  cache:
+    paths: []
